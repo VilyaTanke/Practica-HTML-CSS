@@ -163,7 +163,13 @@ body >nav >div >img{
     transition: all 0.6s linear;
     }
 
-   @media screen and (min-width: 768px){
+    @media screen and (max-width: 426px){
+    header {
+      flex-direction: column;
+    }
+    }
+
+   @media screen and (min-width: 426px){
 
     main>form>fieldset{
       display: grid;
@@ -180,5 +186,6 @@ body >nav >div >img{
       margin-right: 0;
     }
 
+    
     
    }
