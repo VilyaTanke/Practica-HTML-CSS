@@ -13,7 +13,7 @@ footer{
 footer>div>a>img{    
     box-shadow: 3px 3px 10px black, 0px 0px 25px #0397fa;
     transition: all 0.6s linear;
-    border-radius: 11px;
+    border-radius: 15px;
     width: 100%;
 }
 
