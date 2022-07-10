@@ -25,6 +25,10 @@ header{
   font-family: monospace;
 }
 
+body >nav >div >img{
+  width: 80px;
+}
+
 
 
 /* -------------- ESTILOS PARA EL FORMULARIO------------------ */
