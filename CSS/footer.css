@@ -24,13 +24,6 @@ footer>div>a>img:hover{
     animation-iteration-count: infinite;
 }
 
-@keyframes bounce {
-
-    0%, 50%, 80%, 100% {transform: translateY(0);}
-    40% {transform: translateY(-30px);}
-    60% {transform: translateY(-15px);}
-}
-
 @media screen and (min-width: 550px) {
     footer>div>a>img{
         border-radius: 22px;
@@ -45,4 +38,12 @@ footer>div>a>img:hover{
         animation-fill-mode: both;
         animation-iteration-count: infinite;
     }
+
+    
+@keyframes bounce {
+
+    0%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-25px);}
+    60% {transform: translateY(-15px);}
+}
 }
